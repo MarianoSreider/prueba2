@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Prueba/static/css/main.bf457c10.chunk.css",
-    "main.js": "/Prueba/static/js/main.ef30ae87.chunk.js",
-    "main.js.map": "/Prueba/static/js/main.ef30ae87.chunk.js.map",
-    "runtime-main.js": "/Prueba/static/js/runtime-main.066cb7b4.js",
-    "runtime-main.js.map": "/Prueba/static/js/runtime-main.066cb7b4.js.map",
-    "static/js/2.e305ad81.chunk.js": "/Prueba/static/js/2.e305ad81.chunk.js",
-    "static/js/2.e305ad81.chunk.js.map": "/Prueba/static/js/2.e305ad81.chunk.js.map",
-    "index.html": "/Prueba/index.html",
-    "precache-manifest.7592d5ff6880f3918e9c5f6039e024ac.js": "/Prueba/precache-manifest.7592d5ff6880f3918e9c5f6039e024ac.js",
-    "service-worker.js": "/Prueba/service-worker.js",
-    "static/css/main.bf457c10.chunk.css.map": "/Prueba/static/css/main.bf457c10.chunk.css.map",
-    "static/js/2.e305ad81.chunk.js.LICENSE.txt": "/Prueba/static/js/2.e305ad81.chunk.js.LICENSE.txt",
-    "static/media/Acc_Logo_All_White_RGB.svg": "/Prueba/static/media/Acc_Logo_All_White_RGB.82dc2419.svg",
-    "static/media/top-bar.css": "/Prueba/static/media/profile_Greg.111cc0e2.svg",
-    "static/media/GB_Home.css": "/Prueba/static/media/Home_page.97208e43.svg",
-    "static/media/logo.svg": "/Prueba/static/media/logo.792ea268.svg"
+    "main.css": "/Prueba2/static/css/main.3fe2cdd8.chunk.css",
+    "main.js": "/Prueba2/static/js/main.ef30ae87.chunk.js",
+    "main.js.map": "/Prueba2/static/js/main.ef30ae87.chunk.js.map",
+    "runtime-main.js": "/Prueba2/static/js/runtime-main.df5752d8.js",
+    "runtime-main.js.map": "/Prueba2/static/js/runtime-main.df5752d8.js.map",
+    "static/js/2.8d2e3516.chunk.js": "/Prueba2/static/js/2.8d2e3516.chunk.js",
+    "static/js/2.8d2e3516.chunk.js.map": "/Prueba2/static/js/2.8d2e3516.chunk.js.map",
+    "index.html": "/Prueba2/index.html",
+    "precache-manifest.02c382b5c28138e4448d8a890e10dadb.js": "/Prueba2/precache-manifest.02c382b5c28138e4448d8a890e10dadb.js",
+    "service-worker.js": "/Prueba2/service-worker.js",
+    "static/css/main.3fe2cdd8.chunk.css.map": "/Prueba2/static/css/main.3fe2cdd8.chunk.css.map",
+    "static/js/2.8d2e3516.chunk.js.LICENSE.txt": "/Prueba2/static/js/2.8d2e3516.chunk.js.LICENSE.txt",
+    "static/media/Acc_Logo_All_White_RGB.svg": "/Prueba2/static/media/Acc_Logo_All_White_RGB.82dc2419.svg",
+    "static/media/top-bar.css": "/Prueba2/static/media/profile_Greg.111cc0e2.svg",
+    "static/media/GB_Home.css": "/Prueba2/static/media/Home_page.97208e43.svg",
+    "static/media/logo.svg": "/Prueba2/static/media/logo.792ea268.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.066cb7b4.js",
-    "static/js/2.e305ad81.chunk.js",
-    "static/css/main.bf457c10.chunk.css",
+    "static/js/runtime-main.df5752d8.js",
+    "static/js/2.8d2e3516.chunk.js",
+    "static/css/main.3fe2cdd8.chunk.css",
     "static/js/main.ef30ae87.chunk.js"
   ]
 }
