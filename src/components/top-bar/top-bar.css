@@ -1,0 +1,232 @@
+@font-face {
+     font-family: Graphik;
+     src: url(../../resources/Fonts/Graphik-Regular.ttf);
+}
+
+@font-face {
+     font-family: Graphik;
+     src: url(../../resources/Fonts/Graphik-Semibold.ttf);
+     font-weight: bold;
+}
+
+* {
+     /* border: thin solid black; */
+     font-family: Graphik;
+}
+
+header {
+     padding-left: 0%;
+     padding-right: 0%;
+     padding-top: 0%;
+     padding-bottom: 0%;
+     margin: 0%;
+}
+
+#title {
+     color: #2a22f0;
+     float: left;
+     font: Lighter 30px Segoe UI;
+}
+
+#GBeaconIcon {
+     margin-right: 25%;
+     border: none !important;
+}
+
+#welcome {
+     /* color: #2c2c2c; */
+     padding: 10px;
+     padding-top: 0px;
+     vertical-align: top;
+     text-align: right;
+     line-height: 8pt;
+     font-weight: bold;
+}
+
+.ac-grey {
+     color: #aaa;
+     fill: #aaa;
+}
+
+.ac-purple {
+     color: #a115ff;
+     fill: #a115ff;
+}
+
+.ac-orange {
+     color: #ff7800;
+     fill: #ff7800;
+}
+
+.profile-pic {
+     /* background-image: url(../resources/Elements/Icons/profile_Greg.svg); */
+     background-repeat: no-repeat;
+     background-position-y: center;
+     background-size: 100% 100%;
+     padding: 20px;
+     margin-right: 5px;
+}
+
+.main-body {
+     /* padding-top: 8%; */
+     overflow: hidden;
+     position: fixed;
+     top: 10%;
+     /* bottom: 0%; */
+     background-color: #ffffff;
+     width: 100%;
+     height: 90%;
+     margin: 0%;
+     /* vertical-align: middle; */
+}
+
+.top-bar {
+     overflow: hidden;
+     position: fixed;
+     top: 0%;
+     background-color: #ffffff;
+     /* box-shadow: 2px 3px 10px 5px rgb(0 0 0 / 25%); */
+     width: 100%;
+     height: 15%;
+     padding-top: 0%;
+     padding-bottom: 2%;
+     margin: 0%;
+     margin-bottom: -5%;
+     vertical-align: top;
+     z-index: 0;
+}
+.top-bar ul li {
+     display: inline-block;
+     vertical-align: top;
+}
+
+.top-bar ul li.last-main {
+     margin-right: 18%;
+}
+
+.top-bar a {
+     text-decoration: none !important;
+}
+
+.top-bar button {
+     text-decoration: none !important;
+     border: none;
+     background-color: transparent;
+     font-size: medium;
+}
+.tb_GB_Icon {
+     margin-right: 25%;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-right: 5%;
+     padding-left: 3%;
+     font-size: 15pt;
+}
+
+.navbar_section {
+     font-weight: bold;
+     color: #aaa;
+     fill: #aaa;
+     margin: 20px;
+     margin-top: 0px;
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+     text-decoration: none !important;
+}
+
+.navbar_section:hover {
+     color: black;
+     fill: black !important;
+}
+
+.navbar_section.selected {
+     color: #a115ff;
+     fill: #a115ff;
+     border-bottom: thick solid !important;
+}
+
+.navbar_section.selected.nobar {
+     color: #a115ff;
+     fill: #a115ff;
+     border: none !important;
+}
+
+.navbar_section.selected:hover {
+     stroke: #3a3a3a;
+     color: #3a3a3a !important;
+     fill: #3a3a3a !important;
+     border-bottom: thick solid !important;
+}
+
+.navbar_section.selected.nobar:hover {
+     stroke: #3a3a3a;
+     color: #3a3a3a !important;
+     fill: #3a3a3a !important;
+     border: none !important;
+}
+
+.navbar_section.selected.industries {
+     color: #ff7800;
+     fill: #ff7800;
+}
+
+.navbar_section.stroke {
+     stroke: #aaa;
+}
+
+.navbar_section.stroke.selected {
+     stroke: #a115ff;
+     color: #a115ff;
+     fill: #a115ff;
+     border-bottom: thick solid;
+}
+.navbar_section.stroke.selected:hover {
+     stroke: #000000;
+     color: #000000;
+     fill: #000000;
+     border-bottom: thick solid;
+}
+
+.navbar_section.stroke:hover {
+     color: black;
+     fill: black !important;
+     stroke: black !important;
+}
+
+.smooth-nav {
+     /* position: fixed; */
+     margin-top: 1%;
+     padding-bottom: 1.5%;
+     box-shadow: 0px 10px 10px 0.00001px rgb(0 0 0 / 4%);
+     vertical-align: middle;
+}
+
+.main-body {
+     /* padding-top: 8%; */
+     overflow: hidden;
+     position: fixed;
+     top: 10%;
+     /* bottom: 0%; */
+     background-color: #ffffff;
+     width: 100%;
+     height: 90%;
+     margin: 0%;
+     /* vertical-align: middle; */
+}
+
+.profile-pic {
+     background-image: url(../../resources/images/profile_Greg.svg);
+     background-repeat: no-repeat;
+     background-position-y: center;
+     background-size: 100% 100%;
+     padding: 20px;
+     margin-right: 5px;
+}
+
+.iconBump {
+     margin-bottom: 0px;
+}
+
+.invisible {
+     display: none;
+}

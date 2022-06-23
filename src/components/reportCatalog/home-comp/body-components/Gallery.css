@@ -1,0 +1,19 @@
+.Pannel {
+     /* size: inherit; */
+     height: calc(100% - 20px);
+     /* width: calc(100% - 20px); */
+     width: inherit;
+     /* height: inherit; */
+     max-width: calc(100% - 30vh - 20px);
+     position: fixed;
+     z-index: 1;
+     bottom: 0;
+     margin: 0px;
+     padding-bottom: 20px;
+     overflow-x: hidden;
+     /* border-radius: 3vh; */
+     /* overflow-y: scroll; */
+     /* padding-top: 25%; */
+     /* left: 0; */
+     background-color: rgb(255, 255, 255);
+}

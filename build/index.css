@@ -1,0 +1,189 @@
+/* Copyright (c) Microsoft Corporation.
+Licensed under the MIT license. */
+
+* {
+     /* border: thin solid black; */
+     font-family: Graphik;
+}
+
+@font-face {
+     font-family: Graphik;
+     src: url(../scr/resources/Fonts/Graphik-Regular.ttf);
+}
+
+@font-face {
+     font-family: Graphik;
+     src: url(../scr/resources/Fonts/Graphik-Semibold.ttf);
+     font-weight: bold;
+}
+
+* {
+     /* border: thin solid black; */
+     font-family: Graphik;
+}
+
+#root {
+     margin-top: 0%;
+     padding-left: 0vw;
+     padding-top: 0%;
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 1333.33px) {
+     #root {
+          padding-left: calc(0 * (100vw - 800px) / 2);
+     }
+}
+
+header {
+     padding-left: 1%;
+     padding-right: 1%;
+     padding-top: 2%;
+}
+
+#title {
+     color: #2a22f0;
+     float: left;
+     font: Lighter 30px Segoe UI;
+}
+
+#welcome {
+     /* color: #2c2c2c; */
+     padding-top: 10px;
+     text-align: right;
+}
+
+.ac-grey {
+     color: #aaa;
+     fill: #aaa;
+}
+
+.ac-purple {
+     color: #a115ff;
+     fill: #a115ff;
+}
+
+.ac-orange {
+     color: #ff7800;
+     fill: #ff7800;
+}
+
+.profile-pic {
+     background-image: url(../resources/Elements/Icons/profile_Greg.svg);
+     background-repeat: no-repeat;
+     background-position-y: center;
+     background-size: 100% 100%;
+     padding: 20px;
+     margin-right: 5px;
+}
+
+.main-body {
+     /* padding-top: 8%; */
+     overflow: hidden;
+     position: fixed;
+     top: 10%;
+     /* bottom: 0%; */
+     background-color: #ffffff;
+     width: 100%;
+     height: 90%;
+     margin: 0%;
+     /* vertical-align: middle; */
+}
+
+.top-bar {
+     overflow: hidden;
+     position: fixed;
+     top: 0%;
+     background-color: #ffffff;
+     box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 25%);
+     width: 100%;
+     height: 8%;
+     padding-top: 0.5%;
+     padding-bottom: 1.5%;
+     margin: 0%;
+     vertical-align: middle;
+}
+.top-bar ul li {
+     display: inline-block;
+     vertical-align: middle;
+}
+
+.top-bar ul li.last-main {
+     margin-right: 18%;
+}
+
+.top-bar a {
+     text-decoration: none !important;
+}
+.tb_GB_Icon {
+     margin-right: 25%;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-right: 5%;
+     padding-left: 3%;
+     font-size: 15pt;
+}
+
+.navbar_section {
+     font-weight: bold;
+     color: #aaa;
+     fill: #aaa;
+     margin: 20px;
+     padding-bottom: 10px;
+     text-decoration: none !important;
+}
+
+.navbar_section:hover {
+     color: black;
+     fill: black !important;
+}
+
+.navbar_section.selected {
+     color: #a115ff;
+     fill: #a115ff;
+     border-bottom: thick solid;
+}
+
+.navbar_section.selected.industries {
+     color: #ff7800;
+     fill: #ff7800;
+}
+
+.navbar_section.stroke {
+     stroke: #aaa;
+}
+
+.navbar_section.stroke.selected {
+     stroke: #a115ff;
+     color: #a115ff;
+     fill: #a115ff;
+     border-bottom: thick solid;
+}
+
+.navbar_section.stroke:hover {
+     color: black;
+     fill: black !important;
+     stroke: black !important;
+}
+
+.smooth-nav {
+     /* position: fixed; */
+     margin-top: 1%;
+     padding-bottom: 1.5%;
+     box-shadow: 0px 10px 10px 0.00001px rgb(0 0 0 / 4%);
+     vertical-align: middle;
+}
+
+.main-body {
+     /* padding-top: 8%; */
+     overflow: hidden;
+     position: fixed;
+     top: 10%;
+     /* bottom: 0%; */
+     background-color: #ffffff;
+     width: 100%;
+     height: 90%;
+     margin: 0%;
+     /* vertical-align: middle; */
+}
